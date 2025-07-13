@@ -1,0 +1,8 @@
+[package]
+name = "thousand_core"
+version.workspace = true 
+edition.workspace = true 
+
+[dependencies]
+thousand_macros.workspace = true
+

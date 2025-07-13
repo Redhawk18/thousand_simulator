@@ -1,0 +1,24 @@
+[package]
+name = "thousand_simulator"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+thousand_core.workspace = true
+thousand_macros.workspace = true
+
+[workspace]
+members = [ "core", "macros", ]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+
+[workspace.dependencies]
+thousand_core = { path = "core" }
+thousand_macros = { path = "macros" }
+
+proc-macro2 = "1"
+quote = "1"
+syn = { version = "2", features= [ "full" ] }
+
