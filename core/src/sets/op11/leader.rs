@@ -1,6 +1,6 @@
 use thousand_macros::leader;
 
-use crate::{Attribute, Color, Group, Set, card::Leader};
+use crate::{attribute::Attribute, card::Leader, color::Color, group::Group, set::Set};
 
 leader!(
     Koby,

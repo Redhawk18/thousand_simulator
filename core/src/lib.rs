@@ -8,7 +8,8 @@ mod role;
 mod set;
 pub mod sets;
 
-pub(crate) use attribute::Attribute;
-pub(crate) use color::Color;
-pub(crate) use group::Group;
-pub(crate) use set::Set;
+// pub(crate) use attribute::Attribute;
+// pub(crate) use character::Character;
+// pub(crate) use color::Color;
+// pub(crate) use group::Group;
+// pub(crate) use set::Set;

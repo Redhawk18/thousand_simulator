@@ -42,7 +42,7 @@ pub enum Group {
     EldoraggoCrew,
     Fairy,
     FallenMonkPirates,
-    FILM,
+    Film,
     FiretankPirates,
     FishMan,
     FishmanIsland,
